@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pago</title>
+    <link rel="stylesheet" href="css/pago.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+
+    <div class="cuadro2">
+        <div>
+            <a href="index.html" class="linkkk">Volver a la pagina principal</a><br>
+        </div><br>
+        <h2>Realice Su Pago</h2>
+        <h4>ingrese su numero de indentidad</h4>
+        <input type="text" id="identidad" class="identidad" >
+        <h4>ingrese su direccion</h4>
+    
+    
+        <input type="text" id="direccion" class="identidad" >
+        <h4>tipo de pago</h4>
+        <select id="metodoPago" class="identidad">
+            <option value="credito">Tarjeta de Crédito</option>
+     
+     
+           <option value="debito">Tarjeta de Débito</option>
+        </select>
+                <button onclick="realizarCompra()" class="pagar">Pagar</button>
+            <div id="mensaje" class="mensaje">Compra Exitosa</div>
+    </div>
+    <script>
+                    function realizarCompra() {
+                    document.getElementById("mensaje").style.display = "block";
+
+
+    
+
+        }
+
+
+        
+    </script>
+
+</div>
+</body>
+</html>

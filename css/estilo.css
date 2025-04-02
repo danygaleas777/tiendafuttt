@@ -1,0 +1,120 @@
+
+
+h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+}
+nav{
+   
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+.encabezad{
+background-color:rgb(97, 103, 103) ;
+color:rgb(15, 67, 50);
+text-align: center;
+
+}
+
+.elementos-nav{
+background-color:rgb(34, 49, 69);
+/*eliminar estilos de los links*/
+list-style-type: none;
+
+}
+.links-nav{
+display:inline;
+
+
+}
+
+nav a{
+    /*para quitar las lineas que generan los links*/
+
+text-decoration:none;
+color:rgb(0, 255, 55);
+margin: 0px 25px 5px 25px;
+}
+
+
+
+nav a:hover{
+
+    color:deepskyblue;
+}
+
+
+
+
+
+
+
+
+
+.lista_productos{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.productos{
+    background-color: rgb(160, 178, 178);
+    width: 30%;
+    padding: 20px 5px;
+    margin-bottom: 20px;
+    text-align: center  ;
+    box-shadow: 0 0 10px(rgb(0,0,0,0.2));
+    transition: box-shadwoy 0.8s ease-in-out;
+    
+    border-radius: 5%;
+    backdrop-filter: blur(6px) saturate(180%); 
+    -webkit-backdrop-filter: blur(6px) saturated(180%);
+    border: 100 px solid rgb(255,255,255,0.125);
+
+}
+
+
+.img{
+    text-align: center;
+}
+
+.productos:hover{
+    box-shadow: 0 0  30px rgb(80, 160, 202);
+
+}
+.gradiente{
+    background: rgb(2,0,36);
+    background: linear-gradient(248deg, rgb(70, 70, 80) 0%, rgb(123, 123, 210) 35%, rgb(143, 196, 245) 62%, rgb(109, 170, 182) 100%);
+    height: auto;
+    width: auto;
+}
+
+.minicuadro{
+  
+    grid-template-rows:10px 10px;
+  border-radius: 20%;
+    background-color: rgb(10, 83, 44);
+    padding: 10px;
+    border: 5px solid black;
+
+}
+
+.cuadro{
+      
+    grid-template-rows:10px 10px;
+  border-radius: 20%;
+    background-color: rgb(10, 83, 44);
+    padding: 10px;
+    border: 5px solid black;
+
+    border-radius: 20%;
+}
+
+
+.linkk{
+    text-decoration:none;
+color:rgb(0, 255, 55);
+margin: 0px 25px 5px 25px;
+}
